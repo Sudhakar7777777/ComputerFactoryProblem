@@ -1,0 +1,123 @@
+/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65145:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/sbalak/DevZone/Workspace/IntelliJ/ComputerFactoryProblem/out/production/ComputerFactoryProblem com.sbk.Main
+Computer Factory Problem Solution:
+Assembler[Assembler-1]: Is created and ready for production...
+Assembler[Assembler-2]: Is created and ready for production...
+Assembler[Assembler-1]: Production Begins...
+Assembler[Assembler-3]: Is created and ready for production...
+Assembler[Assembler-2]: Production Begins...
+Assembler[Assembler-4]: Is created and ready for production...
+Assembler[Assembler-3]: Production Begins...
+Assembler[Assembler-5]: Is created and ready for production...
+Assembler[Assembler-4]: Production Begins...
+Assembler[Assembler-5]: Production Begins...
+Truck[Truck-1]: Is created and ready for production...
+Truck[Truck-2]: Is created and ready for production...
+Truck[Truck-3]: Is created and ready for production...
+Truck[Truck-1]: Production Begins...
+Truck[Truck-2]: Production Begins...
+Truck[Truck-3]: Production Begins...
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Truck[Truck-3]: Loading failed... Pause for a while before retry to Load again.
+Truck[Truck-1]: Loading failed... Pause for a while before retry to Load again.
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+Assembler[Assembler-2]: Built and loaded Computer [88226809]
+Assembler[Assembler-5]: Built and loaded Computer [8610799071]
+Assembler[Assembler-3]: Built and loaded Computer [3372231932]
+Assembler[Assembler-1]: Built and loaded Computer [6484967136]
+Assembler[Assembler-4]: Built and loaded Computer [8765534101]
+Truck[Truck-2]: Loaded 5items to Truck...
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Assembler[Assembler-1]: Built and loaded Computer [331352829]
+Assembler[Assembler-3]: Built and loaded Computer [8494183672]
+Assembler[Assembler-4]: Built and loaded Computer [4854115354]
+Assembler[Assembler-5]: Built and loaded Computer [5443557216]
+Assembler[Assembler-2]: Built and loaded Computer [3723936004]
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Assembler[Assembler-3]: Built and loaded Computer [5207395290]
+Assembler[Assembler-5]: Built and loaded Computer [886007825]
+Assembler[Assembler-1]: Built and loaded Computer [4125389291]
+Assembler[Assembler-2]: Built and loaded Computer [8328746271]
+Assembler[Assembler-4]: Built and loaded Computer [8548893477]
+Truck[Truck-1]: Loaded 5items to Truck...
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-3]: Loaded 5items to Truck...
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-3]: Loading failed... Pause for a while before retry to Load again.
+Truck[Truck-1]: Loading failed... Pause for a while before retry to Load again.
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Assembler[Assembler-1]: Built and loaded Computer [712580402]
+Assembler[Assembler-3]: Built and loaded Computer [2527384388]
+Assembler[Assembler-2]: Built and loaded Computer [9070591161]
+Assembler[Assembler-4]: Built and loaded Computer [1875669480]
+Assembler[Assembler-5]: Built and loaded Computer [4855034322]
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Truck[Truck-3]: Loaded 5items to Truck...
+Assembler[Assembler-5]: Built and loaded Computer [2746141542]
+Assembler[Assembler-4]: Built and loaded Computer [7538501686]
+Assembler[Assembler-3]: Built and loaded Computer [2042458724]
+Assembler[Assembler-2]: Built and loaded Computer [6665229387]
+Assembler[Assembler-1]: Built and loaded Computer [9573371540]
+Truck[Truck-3]: Production Ends...
+Truck[Truck-3]: printTruckLoad
+Computer [5443557216]
+Computer [331352829]
+Computer [3723936004]
+Computer [8494183672]
+Computer [5207395290]
+Computer [712580402]
+Computer [4855034322]
+Computer [1875669480]
+Computer [9070591161]
+Computer [2527384388]
+Truck[Truck-1]: Loaded 5items to Truck...
+Truck[Truck-1]: Production Ends...
+Truck[Truck-1]: printTruckLoad
+Computer [4854115354]
+Computer [4125389291]
+Computer [8328746271]
+Computer [8548893477]
+Computer [886007825]
+Computer [2042458724]
+Computer [9573371540]
+Computer [6665229387]
+Computer [2746141542]
+Computer [7538501686]
+ShippingBelt::unloadItems() Has 0 which is less than the demand 5
+Truck[Truck-2]: Loading failed... Pause for a while before retry to Load again.
+Assembler[Assembler-5]: Built and loaded Computer [1981549171]
+Assembler[Assembler-2]: Built and loaded Computer [531952410]
+Assembler[Assembler-1]: Built and loaded Computer [2270933156]
+Assembler[Assembler-3]: Built and loaded Computer [2943867382]
+Assembler[Assembler-4]: Built and loaded Computer [7697085312]
+Assembler[Assembler-1]: Production Ends...
+Assembler[Assembler-3]: Production Ends...
+Assembler[Assembler-2]: Production Ends...
+Assembler[Assembler-5]: Production Ends...
+Assembler[Assembler-4]: Production Ends...
+ShippingBelt::unloadItems() Belt Size = 5; Demand = 5
+Truck[Truck-2]: Loaded 5items to Truck...
+Truck[Truck-2]: Production Ends...
+Truck[Truck-2]: printTruckLoad
+Computer [3372231932]
+Computer [8610799071]
+Computer [88226809]
+Computer [6484967136]
+Computer [8765534101]
+Computer [1981549171]
+Computer [2943867382]
+Computer [531952410]
+Computer [2270933156]
+Computer [7697085312]
+
+Process finished with exit code 0
